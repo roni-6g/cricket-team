@@ -1,0 +1,17 @@
+.player {
+    border: 1px solid goldenrod;
+    margin-bottom: 30px;
+}
+.player-photos {
+    margin: 20px;
+}
+.player-photos img {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    border: 5px solid gray;
+}
+
+.player-info {
+    padding: 20px;
+}

@@ -1,0 +1,13 @@
+.header-area {
+    text-align: center;
+}
+.header-area img {
+    height: 100px;
+}
+
+.header-area h1 {
+    background-color: #AE191E;
+    color: #BAD52E;
+    padding: 10px 0;
+    margin: 0;
+}
