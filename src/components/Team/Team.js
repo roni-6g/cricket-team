@@ -7,18 +7,19 @@ import AddPlayer from './../AddPlayer/AddPlayer';
 
 const Team = () => {
     const topPlayers = fakeData.slice(0, 10);
-    const [player, setPlayer] = useState(topPlayers);
+    const [players, setPlayers] = useState(topPlayers);
     const [add, setAdd] = useState([]);
+
     const handleAdded = (player) => {
         const newAdd = [...add, player];
         setAdd(newAdd);
-    }    
-    // console.log(add);
+        console.log(player);
+    }
     return (
         <div className="container">
             <div className="row">
                 <div className="col-8">
-                    {topPlayers.map(player =>
+                    {players.map(player =>
                         <Player
                             player={player}
                             handleAdded={handleAdded}                        >
